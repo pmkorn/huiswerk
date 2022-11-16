@@ -1,0 +1,55 @@
+header {
+  background-color: #00FF00;
+  color: #FFFFFF;
+}
+footer {
+  background-color: #0000FF;
+  color: #FFFFFF;
+}
+
+/* Hoogte en breedte van de cel */
+td {
+  width: 200px;
+  height: 200px;
+}
+
+/* Achtergrond opmaak van alle cellen en opmaak van de woorden in de kolommen 1 en 3 met eigen achtergrond. */
+#r1c1 { background-color: red; }
+#r1c1 p { background-color: darkorchid;}
+
+#r1c2 { background-color: green; }
+
+#r1c3 { background-color: blue; }
+#r1c3 p { background-color: burlywood;}
+
+#r1c4 { background-color: yellow; }
+
+#r2c1 { background-color: purple; }
+#r2c1 p { background-color: chartreuse;}
+
+#r2c2 { background-color: pink; }
+
+#r2c3 { background-color: black; }
+#r2c3 p { background-color: cadetblue;}
+
+#r2c4 { background-color: brown; }
+
+#r3c1 { background-color: grey; }
+#r3c1 p { background-color: cornflowerblue;}
+
+#r3c2 { background-color: orange; }
+
+#r3c3 { background-color: cyan; }
+#r3c3 p { background-color: coral;}
+
+#r3c4 { background-color: gold; }
+
+#r4c1 { background-color: violet; }
+#r4c1 p { background-color: cornsilk;}
+
+#r4c2 { background-color: olive; }
+
+#r4c3 { background-color: tan; }
+#r4c3 p { background-color: indianred;}
+
+#r4c4 { background-color: aquamarine; }
