@@ -1,0 +1,102 @@
+/* BODY */
+body {
+  background-color: aqua;
+}
+
+/* HEADER */
+header {
+  background-color: coral;
+  padding: 10px;
+  margin: 0 auto 20px auto;
+  width: 1000px;
+  text-align: center;
+}
+h1 {  
+  color: white;  
+}
+ul a {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+li {
+  display: inline-block;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  background-color: white;
+  padding: 10px;
+  margin-right: 15px;
+}
+li:last-child {
+  margin-right: 0;
+}
+li:hover {
+  background-color: red;
+}
+li:active {
+  background-color: green;
+}
+
+/* TABLE */
+table {
+  border-collapse: collapse;
+  width: 400px;
+  background-color: aquamarine;
+}
+td {
+  width: 200px;
+  padding: 5px;
+}
+
+/*ABOUT ME*/
+#overmij, #mijncv, #contact {
+  background-color: white;
+  margin: 20px auto;
+  padding: 10px;
+  width: 1000px;
+}
+.overmij {
+  background-color: aquamarine;
+}
+img {
+  background-color: hotpink;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+p {
+  margin: 0;
+}
+
+/* FORM */
+form {
+  background-color: darksalmon;
+  display: inline-block;
+  padding: 25px;
+}
+input[type="text"], input[type="email"], textarea, select, button {
+  display: block;
+  margin: 20px 0;
+  width: 400px;
+  padding: 5px;
+}
+button:hover {
+  background-color: brown;
+}
+button:active {
+  background-color: blueviolet;
+}
+
+/* FOOTER */
+footer {
+  background-color: darkorchid;
+  color: white;
+  padding: 10px;
+  clear: left;
+  margin: 20px auto;
+  width: 1000px;
+}
