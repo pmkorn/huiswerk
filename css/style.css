@@ -1,0 +1,20 @@
+body {
+  background-color: lightgray;
+}
+
+h1, h2 {
+  color: blue;
+}
+
+p {
+  color: chocolate;
+}
+
+footer {
+  height: 200px;
+  background-color: darkcyan;
+}
+.copyright {
+   color: white;
+   font-weight: bold;
+}
